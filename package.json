@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A template for gatsby",
+  "repository": "https://gitlab.com/tuxsnct/gatsby-template.git",
+  "license": "MIT",
+  "author": "Hideki Tanaka <work@tuxsnct.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean",
+    "sort": "eslint package.json",
+    "lint": "eslint . src"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.1",
+    "preact": "^10.5.14",
+    "preact-render-to-string": "^5.1.19",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/react-helmet": "^6.1.2",
+    "eslint": "^7.32.0",
+    "eslint-config-tuxsnct": "^1.2.0",
+    "gatsby-cli": "^3.11.0",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-manifest": "^3.11.0",
+    "gatsby-plugin-offline": "^4.11.0",
+    "gatsby-plugin-preact": "^5.11.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "husky": "^7.0.1"
+  }
+}
