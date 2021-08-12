@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-template",
+  "name": "gatsbyjs-template",
   "version": "1.0.0",
   "private": true,
   "description": "A template for Gatsby.js",
-  "repository": "https://gitlab.com/tuxsnct/gatsby-template.git",
+  "repository": "https://github.com/tuxsnct/gatsbyjs-template.git",
   "license": "MIT",
   "author": "Hideki Tanaka <work@tuxsnct.com>",
   "scripts": {

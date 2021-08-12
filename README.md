@@ -1,1 +1,1 @@
-# gatsby-template
+# gatsbyjs-template
